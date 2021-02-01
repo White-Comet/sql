@@ -1,0 +1,5 @@
+SELECT Prod.Name, Category.Name
+	FROM Prod
+	LEFT JOIN Category 
+	ON Prod.id=Category.ProdId 
+ORDER BY Prod.Name;
